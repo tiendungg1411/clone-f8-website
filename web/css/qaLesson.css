@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 21, 2023, 11:25:02 PM
+    Author     : HP
+*/
+
+.content_top{
+    margin: 50px 0 0 200px;
+    font-size: 14px;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.content_bot{
+    margin: -350px 0 0 200px;
+}
+/*Paren comment*/
+.introduceParentComment{
+    margin-top: 10px;
+    display: flex;
+
+}
+.introduceParentComment img{
+    border-radius: 50%;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+}
+
+.parentContentComment{
+    margin: -30px 0 0 74px;
+    width: 70%;
+}
+
+.parentContentComment p{
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.parentContentComment #rep{
+    font-size: 12px;
+    cursor: pointer;
+    color: grey;
+}
+
+.parentContentComment #rep:hover{
+    opacity: 0.8;
+}
+
+
+/*Child Comment*/
+.childComment{
+    margin: 10px 0 0 60px;
+}
+
+.introduceChildComment{
+    display: flex;
+}
+
+.introduceChildComment img{
+    border-radius: 50%;
+    height: 5em;
+    object-fit: cover;
+    width: 5em;
+}
+
+.childContentComment{
+    margin: -20px 0 0 60px;
+    width: 70%;
+}
+
+.childContentComment p{
+    word-wrap: break-word;
+    line-height: 1.4;
+    font-size: 12px;
+}
+
+/*Reply comment*/
+.replyComment{
+    /*display: none;*/
+    margin: 14px 0 0 60px;
+}
+
+.replyComment img{
+    border-radius: 50%;
+    height: 5em;
+    object-fit: cover;
+    width: 5em;
+}
+
+/*Post comment*/
+.postComment{
+    margin-top: 10%;
+}
+
+
+.postComment img{
+    border-radius: 50%;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+}
+
+button{
+    background-color: orange;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 38px;
+    padding: 0 14px;
+    transition: background-color .1s,border-color .1s,color .1s,fill .1s;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+img{
+    cursor: pointer;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+.lessonName{
+    cursor: pointer;
+}
+
+.lessonName:hover{
+    opacity: 0.7;
+}

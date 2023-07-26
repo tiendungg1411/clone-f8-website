@@ -1,0 +1,110 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+body .appBuilder-carousel {
+  margin-bottom: 64px;
+  margin-top: 56px;
+}
+body .appBuilder-carousel .carousel .carousel-indicators {
+  width: 76%;
+}
+body .appBuilder-carousel .carousel .carousel-indicators li {
+  border: none;
+  background-color: #98ACB9;
+  height: 18px;
+  margin-right: 28px;
+  width: 18px;
+}
+body .appBuilder-carousel .carousel .carousel-indicators li.active {
+  background-color: #50E3C2;
+}
+body .appBuilder-carousel .carousel .carousel-inner .item h3 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #FFFFFF;
+  letter-spacing: 0.89px;
+  line-height: 38.41px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  position: relative;
+}
+body .appBuilder-carousel .carousel .carousel-inner .item h3::after {
+  background-color: #FFFFFF;
+  bottom: -18px;
+  content: "";
+  height: 6px;
+  left: 0;
+  position: absolute;
+  width: 158px;
+}
+body .appBuilder-carousel .carousel .carousel-inner .item h4 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #43EEC5;
+  letter-spacing: 1.02px;
+  line-height: 33px;
+}
+li a {
+    background: #FFFFFF;
+    color: #000;
+    border-left: 4px solid transparent;
+    padding: 10px 20px;
+}
+ li a {
+    display: block;
+    background: #ced4da;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+.popup {
+  position: fixed;
+  background: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 120vh;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.popup.pop {
+  display: block;
+}
+.popup-div {
+  margin: 10px;
+  background: #fff;
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  overflow:scroll;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup-div .popup-header, .popup-div .popup-bottom {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #eee;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+}
+.popup-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.popup-main {
+  margin-top: 40px;
+}
+.popup-bottom {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}

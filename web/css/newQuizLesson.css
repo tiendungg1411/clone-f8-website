@@ -1,0 +1,159 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17/06/2023, 9:37:43 PM
+    Author     : Admin
+*/
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://localhost:9999/g4/image/anhnen.png");
+    min-height: 850px;
+}
+#ft {
+    margin-top: 0;
+}
+.content {
+    width: 600px;
+    min-height: 700px;
+    background-color: #fdcfc9;
+    border-radius: 2%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.content_dropdown {
+    display: flex;
+}
+.content_dropdown_course select {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.content_dropdown_lesson select {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.content_dropdown_correctAns select {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    margin-left: 50px;
+    color: white;
+    margin-left: 0; 
+}
+
+.content_head {
+    text-align: center;
+}
+.content_head img {
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.content_head h1 {
+    margin-bottom: 30px;
+}
+.content_bot {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.content_bot_question, .content_bot_answer{
+    font-size: 16px;
+}
+
+.ctld {
+    font-size: 16px;
+    margin-top: 10px;
+}
+#mySelect3{
+    margin-bottom: 50px;
+}
+.error_select3 {
+    position: absolute;
+    top: -54px;
+    left: 0;
+}
+.content_bot_question textarea {
+    margin-top: 10px;
+    width: 471px;
+    height: 120px;
+}
+#explain_textarea {
+    margin-top: 10px;
+    width: 471px;
+    height: 60px;
+}
+.content_bot_explain {
+    font-size: 16px;
+}
+.content_bot_answer div, .content_bot_answer input{
+    margin-bottom: 10px;
+}
+.content_bot_answer input {
+    width: 471px;
+    height: 26px;
+}
+.submit_btn{
+    background: #4CAF50;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 40px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.submit_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+/*Error*/
+.error_select {
+    margin: 10px 87px 50px 50px;
+    font-size: 16px;
+    color:red;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.error_select1 {
+    position: absolute;
+    top: 190px;
+    left: 48px;
+}
+.error_select2 {
+    position: absolute;
+    top: 190px;
+    left: 310px;
+}
+.error_select3 {
+    font-size: 16px;
+    color:red;
+    font-weight: 600;
+    margin-top: 10px;
+}

@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20/05/2023, 10:10:49 AM
+    Author     : Admin
+*/
+
+.create_course {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .create_course_course {
+
+
+                border-radius: 24px;
+
+            }
+            .create_course_course h2 {
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 0;
+            }
+            .create_course_course input {
+                height: 30px;
+                width: 500px;
+                margin-top: 10px;
+                border-radius: 5px;
+    border-color: #c4c4e3;
+font-size:20px;
+            }
+            .create_course_course select {
+                height: 30px;
+                width: 200px;
+                margin-top: 10px;
+                border-radius: 10px;
+                font-size:17px;
+            }
+            .create_course_course div {
+                margin-top: 20px;
+            }
+            .submit {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .submit input{
+                width: 100px;
+                height: 50px;
+            }
+            .submit input:first-child {
+                background-color: #18ce18;
+                color: white;
+                font-size: 21px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .submit input:nth-child(2) {
+                background-color: rgb(232 28 28);
+                color: white;
+                font-size: 21px;
+                font-weight: 600;
+                cursor: pointer;
+            }

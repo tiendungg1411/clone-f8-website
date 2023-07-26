@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 6, 2023, 10:12:46 PM
+    Author     : HP
+*/
+
+.content{
+    position: absolute;
+    display: flex;
+}
+
+.content_left{
+    margin-left: 200px;
+    margin-top: 34px;
+}
+
+.content_left h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 600px;
+    font-weight: 100;
+}
+
+.content_left h1{
+    font-size: 34px;
+    font-style: oblique;
+}
+.content_left h2{
+    margin-top: 100px;
+    font-size: 20px;
+    font-style: inherit;
+}
+
+hr{
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0.4;
+}
+.main{
+    border: 2px solid #e8e8e8;
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 16px 24px 22px;
+    position: relative;
+    width: 800px;
+}
+
+h4:hover{
+    opacity: 0.6;
+}
+
+.edit{
+    margin-top: 14px;
+    font-size: 16px;
+    color: grey;
+}
+
+span{
+    margin-top: 14px;
+    font-size: 16px;
+    color: grey;
+}
+.read{
+    margin-top: 14px;
+    font-size: 16px;
+    color: grey;
+}
+.option{
+    margin-left:730px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+i{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+i:hover{
+    opacity: 0.6;
+}
+
+.popup{
+    display:none;
+    position: absolute;
+    top: 61px;
+    right: 26px;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+    width: 230px;
+    border-radius: 10px;
+    padding: 8px 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.popup_item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: grey;
+}
+
+.popup_item:hover{
+    background-color: #f0f0f0;
+}
+
+.content_right{
+    margin: 156px 0 0 120px;
+}
+
+.content_right img{
+    height: 320px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.content_right img:hover{
+    opacity: 0.8;
+}
+
+.num_saved_blog h2{
+    position: relative;
+}
+.num_saved_blog h2:after{
+    border-bottom: 2px solid var(--black-color);
+    bottom: -1px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 26, 2023, 4:09:23 PM
+    Author     : HP
+*/
+
+/*Content left*/
+
+.content_left{
+    margin-left: 80px;
+}
+
+
+.content_left h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content_left h2{
+    /*background-color: #eee;*/
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content_left h2:hover, h2:focus{
+    background-color: #eee;
+    width: 130%;
+}
+
+.content_left a:visited{
+    background-color: #eee;
+    width: 130%;
+
+}
+.content_left h2 a{
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 4px;
+    padding: 26px 22px;
+    text-decoration: none;
+    color: black;
+    width: 130%;
+}
+
+.content_left h2 i{
+    color: orange;
+}
+
+.content_left h2 ion-icon{
+    color: orange;
+}

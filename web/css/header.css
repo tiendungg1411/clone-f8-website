@@ -1,0 +1,402 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19/05/2023, 8:10:27 AM
+    Author     : Admin
+*/
+
+/*Header*/
+.header {
+    --height: 66px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e8ebed;
+    display: flex;
+    font-size: 1.4rem;
+    height: var(--height);
+    left: 0;
+    padding: 0 28px;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+.header_left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.header_right {
+    width: 50%;
+}
+.header_left_logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.header_left_logo img{
+    border-radius: 8px;
+    height: 38px;
+    width: 38px;
+}
+.header_left_logo_text {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 16px;
+}
+.header_left_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.header_left_search_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e8e8e8;
+    border-radius: 20px;
+    width: 70%;
+}
+.header_left_search_icon {
+    background-color: #fff;
+    background-image: url(../image/searchh.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    border-radius: 50%;
+    height: 32px;
+    opacity: .7;
+    transition: opacity .2s ease-in-out;
+    width: 30px;
+}
+.header_left_search_input {
+    border: none;
+    caret-color: #444;
+    flex: 1 1;
+    height: 100%;
+    outline: none;
+    padding: 0 4px;
+    border-radius: 20px;
+    width: 70%;
+}
+
+/* header_right */
+
+
+.header_right_register {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 30%;
+}
+.header_right_register_login {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.header_right_register_login :hover {
+    cursor: pointer;
+}
+.header_right_register_register {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f05123;
+    color: #e8e8e8;
+    border-radius: 6px;
+}
+/*Logo*/
+.header_right_login {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header_right_login h4 {
+    color: #333;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.header_right_login i {
+    margin: 0 20px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+.header_right_login_logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/*Logo pupup*/
+.header_right_login_logo_wrap {
+    position: relative;
+}
+.header_right_login_logo_popup {
+    position: absolute;
+    top: 36px;
+    left: -180px;
+    background-color: white;
+    width: 230px;
+    border-radius: 12px;
+    color: #666;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+}
+.header_right_login_logo_popup_content {
+    padding: 8px 24px;
+}
+.header_right_login_logo_popup_logo {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 14px 0;
+}
+.header_right_login_logo_popup_logo img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    cursor: default;
+}
+.header_right_login_logo_popup_logo div {
+    margin-left: 10px;
+}
+.header_right_login_logo_popup_logo div:first-child {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 550;
+}
+.header_right_login_logo_popup_detail div{
+    margin: 14px 0;
+    cursor: pointer;
+}
+.header_right_login_logo_wrap hr {
+    border-top:  1px solid rgba(0,0,0,.05);
+}
+.my_course_wrap {
+    position: relative;
+}
+.my_course_wrap_popup {
+    position: absolute;
+    top: 28px;
+    left: -225px;
+    background-color: white;
+    width: 380px;
+    border-radius: 12px;
+    color: #666;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+}
+.my_course_wrap_popup_wrap {
+    padding: 8px;
+}
+.my_course_wrap_popup_wrap div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my_course_wrap_popup_wrap_head div:nth-child(1) {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: 550;
+}
+.my_course_wrap_popup_wrap_head {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.my_course_wrap_popup_wrap_head div:nth-child(2) {
+    color: #f05123;
+    cursor: pointer;
+    padding: 10px 6px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.my_course_wrap_popup_wrap_content div {
+    margin: 12px 0;
+    padding-left: 10px;
+}
+.my_list_course_wrap {
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+}
+.my_list_course_wrap:hover {
+    background-color: rgba(22,24,35,.05);
+}
+.my_list_course img{
+    width: 120px;
+    border-radius: 8px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.my_list_course_title {
+    padding-bottom: 20px;
+}
+.my_list_course_title_1 {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.my_list_course_title_2 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*Bell popup*/
+.bell_wrap {
+    position: relative;
+}
+.bell_wrap_popup {
+    position: absolute;
+    top: 30px;
+    left: -358px;
+    background-color: white;
+    width: 400px;
+    border-radius: 12px;
+    color: #666;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+}
+.bell_wrap_popup_wrap {
+    padding: 18px;
+}
+.bell_wrap_popup_wrap_head div:first-child {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 42px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.bell_wrap_popup_wrap_head {
+    margin-bottom: 20px;
+    position: relative;
+}
+.bell_wrap_popup_wrap_head div:nth-child(2) {
+    position: absolute;
+    top:0;
+    right:0;
+    color: #f05123;
+    cursor: pointer;
+}
+.bell_wrap_popup_wrap_head div:nth-child(2):hover {
+    text-decoration: underline;
+}
+/*SearchPopup*/
+.header_left_search {
+    position: relative;
+}
+.header_left_search_popup {
+    width: 410px;
+    position: absolute;
+    top: 46px;
+    left: 90px;
+    background-color: white;
+    border-radius: 12px;
+    color: #666;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+}
+.header_left_search_popup_content div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header_left_search_popup_wrap {
+    padding: 12px 24px;
+}
+.header_left_search_popup_result {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #0000008a;
+}
+.header_left_search_popup_result i {
+    margin-right: 8px;
+}
+.header_left_search_popup_head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.header_left_search_popup_head div:nth-child(1) {
+    font-size: 14px;
+    color: #333;
+    font-weight: 550;
+}
+.header_left_search_popup_head div:nth-child(2):hover {
+    cursor: pointer;
+    color: #f33a58;
+}
+.header_left_search_popup_content div {
+    display: flex;
+    align-items: center;
+}
+.header_left_search_popup_content img {
+    margin-right: 12px;
+
+}
+.header_left_search_popup_content_course div{
+    font-weight: normal;
+    color: #292929;
+}
+.header_left_search_popup_content_course {
+    padding: 6px 0;
+    cursor: pointer;
+}
+.header_left_logo_back {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #808990;
+    padding: 12px 0;
+    font-size: 12px;
+    font-weight: 550;
+}
+.header_left_logo_back div {
+    margin-left: 2px;
+}
+.header_left_logo_back i {
+    margin-top: 2px;
+}
+.header_left_logo_back:hover{
+    font-size: 13px;
+    transition: .3s ease;
+}
+/*Notify*/
+.header_notify_item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_notify_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header_notify_item span {
+    font-weight: 600;
+    margin-left: 14px;
+}
+.header_notify_item span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

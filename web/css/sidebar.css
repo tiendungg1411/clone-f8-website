@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19/05/2023, 5:15:01 PM
+    Author     : Admin
+*/
+.sideBar {
+    --width: 96px;
+    align-items: center;
+    display: inline-block;
+    flex-direction: column;
+    flex-shrink: 0;
+    left: 0;
+    padding: 0 8px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 74px;
+    width: var(--width);
+    z-index: 8;
+}
+.header_right_task {
+/*    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+    padding: 0 50px;*/
+}
+.header_right_task_text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #1a1a1a;
+}
+.header_right_task_center {
+    text-align: center;
+    width: 60px;
+    height: 55px;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_right_task_center i {
+    padding-top: 4px;
+    font-size: 18px;
+}
+.header_right_task_center:hover{
+    background-color: #e8ebed;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header_right_task_writeblog :hover{
+    cursor: pointer;
+}
+
+.backgroundActive {
+    background-color: #e8ebed;
+    border-radius: 10px;
+}
+.backgroundNoneActive {
+    background-color: white;
+    border-radius: 10px;
+}
+.header_right_task_writeblog_icon i {
+    padding: 15px;
+    background-color: #1473e6;
+    border-radius: 50%;
+    color: #e8e8e8;
+}
+

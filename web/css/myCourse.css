@@ -1,0 +1,171 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17/06/2023, 8:53:13 AM
+    Author     : Admin
+*/
+
+.container {
+    margin-left: 10%;
+    padding-top: 30px;
+    display: flex;
+}
+.container_blog_wrap {
+    width: 100%;
+    min-height: 600px;
+}
+.container_blog_wrap h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: #242424;
+    font-weight: 700;
+}
+.container_blog_wrap p {
+    font-size: 16px;
+    color: #292929;
+    margin-bottom: 80px;
+}
+.my_course_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.free_course_list_course {
+    width: 25%;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+.free_course_list_course h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.free_course_list_course_link {
+    background-color: rgba(0,0,0,.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.free_course_list_course_link:hover .free_course_list_course_viewCoursebtn {
+    top: 50%;
+}
+.free_course_list_course a:hover {
+    /* outline: none; */
+    /* text-decoration: none; */
+    opacity: 0.8;
+}
+.free_course_list_course a:hover .free_course_list_course_viewCoursebtn {
+    opacity: 1;
+}
+.free_course_list_course_link:hover .free_course_list_course_viewCoursebtn {
+    opacity: 1;
+    visibility: visible;
+}
+.free_course_list_course_count {
+    font-size: 14px;
+}
+.free_course_list_course_viewCoursebtn {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    transition: all .3s ease 0s;
+    visibility: hidden;
+    z-index: 1;
+}
+.free_course_list_course_viewCoursebtn {
+    border-radius: 999px!important;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+    padding: 9px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*new course*/
+.free_course_list_register {
+    width: 25%;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+.free_course_list_register_content {
+    border: 3px dashed #e8e8e8;
+    border-radius: 16px;
+    display: block;
+    padding-top: 56.25%;
+    position: relative;
+    transition: .3s ease;
+    height: 70%;
+    position: relative;
+}
+.free_course_list_register_content:hover{
+    border-color: #f05123;
+    cursor: pointer;
+}
+.free_course_list_register_content:hover .fa-solid{
+    color: #f05123;
+}
+.free_course_list_register_content .fa-solid{
+    font-size: 28px;
+    position: absolute;
+    top: 42px;
+    left: 134px;
+    color: #666;
+}
+
+
+/*button*/
+.Button_btn__RW1e2:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+.UsersCourses_add-btn__J6fxq, .UsersCourses_add-icon__SzhOz {
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.UsersCourses_add-btn__J6fxq {
+    border-width: 3px;
+    bottom: 20px;
+}
+.Button_btn__RW1e2 {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 999px!important;
+    color: var(--primary-color);
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    padding: 9px 16px;
+    text-align: center;
+    transition: .3s ease;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    border: 1px solid #f05123;
+
+}

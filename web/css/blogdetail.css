@@ -1,0 +1,221 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 7, 2023, 8:38:57 PM
+    Author     : HP
+*/
+.container{
+    display: flex;
+    position: absolute;
+}
+/*Content left*/
+
+.content_left{
+    margin: 40px 0 0 140px;
+    width: 30%;
+
+}
+
+.content_left h4{
+    font-size: 20px;
+}
+
+.content_left i{
+    font-size: 24px;
+    margin-top: 20px;
+    color: grey;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0 0 4px;
+    color: grey;
+}
+
+/*Content right*/
+
+.content_right{
+    margin: 20px 400px 0 140px;
+    width: 70%;
+}
+
+.content_right h3{
+    font-size: 54px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.user{
+    display: flex;
+    margin-top: 30px;
+}
+
+.user img{
+    border-radius: 50%;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+}
+
+.user h4{
+    font-size: 18px;
+    margin: 10px 0 0 10px;
+}
+
+.time{
+    font-size: 14px;
+    margin: -4px 0 0 10px;
+    color: grey;
+}
+
+.option{
+    margin-left: 360px;
+    font-size: 20px;
+    color: grey;
+}
+
+.main{
+    margin-top: 20px;
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 1.8;
+    width: 750px;
+}
+
+/*Popup*/
+.option_popup_wrap {
+    position: absolute;
+    top: 61px;
+    right: 26px;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+    width: 230px;
+    border-radius: 10px;
+    padding: 8px 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1); /* semi-transparent black */
+    margin-right: 220px;
+}
+.option_popup_wrap hr{
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+.option_popup_item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px 20px;
+    cursor: pointer;
+
+}
+.option_popup_item:hover {
+    background-color: #f0f0f0;
+}
+.option_popup_item i {
+    margin-right: 16px;
+}
+
+/*Comment*/
+#comment{
+    color: black;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 16px;
+    margin-left: 230px;
+}
+
+#comment .avt{
+    border-radius: 50%;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+    margin-top: 9%;
+    margin-left: -240px;
+    /*position: relative;*/
+
+}
+
+#comment textarea{
+    margin-top: -7%;
+    margin-left: -170px;
+    position: absolute;
+}
+
+#comment button{
+    margin-left: 300px;
+    margin-top: 10px;
+    background-color: orange;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 40px;
+    padding: 0 16px;
+    transition: background-color .1s,border-color .1s,color .1s,fill .1s;
+    opacity: 1;
+}
+
+#comment button:hover{
+    opacity: 0.8;
+}
+
+.avt_com{
+    border-radius: 50%;
+    height: 6em;
+    object-fit: cover;
+    width: 6em;
+    /*position: relative;*/
+    margin: 24px 0 30px 6px;
+}
+
+
+.content_com{
+    margin: -80px 0 0 80px;
+    display: flex;
+    font-size: 14px;
+}
+
+.content{
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+.list_com{
+    margin-top: 0%;
+    margin-left: -250px;
+    position: relative;
+    /*margin-bottom: 20px;*/
+}
+
+.popup{
+    display: none;
+    position: absolute;
+    top: 61px;
+    right: 26px;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+    width: 230px;
+    border-radius: 10px;
+    padding: 8px 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: -60px;
+    margin-right: 400px;
+    right: 0;
+}
+
+.popup .popup_item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: grey;
+}
+.popup_item:hover{
+    background-color: #f0f0f0;
+}

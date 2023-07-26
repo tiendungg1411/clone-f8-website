@@ -1,0 +1,197 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03/06/2023, 9:25:34 AM
+    Author     : Admin
+*/
+
+.container_wrap {
+    margin-top: 14px;
+}
+.container {
+    margin-left: 10%;
+    padding-top: 30px;
+    display: flex;
+}
+.container_blog_wrap {
+    width: 60%;
+}
+.container_blog_wrap h1 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: #242424;
+    font-weight: 700;
+}
+.container_blog_wrap p {
+    font-size: 16px;
+    color: #292929;
+    margin-bottom: 80px;
+}
+.container_blog {
+    border: 2px solid #e8e8e8;
+    padding: 26px 26px 16px 26px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.container_blog_head {
+    display: flex;
+    justify-content: space-between;
+}
+.container_blog_head_left, .container_blog_head_right {
+    display: flex;
+    align-items: center;
+}
+
+/*option popup*/
+.option_popup_wrap {
+    position: absolute;
+    top: 61px;
+    right: 26px;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+    width: 230px;
+    border-radius: 10px;
+    padding: 8px 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1); /* semi-transparent black */
+}
+.option_popup_wrap hr{
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+.option_popup_item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px 20px;
+    cursor: pointer;
+    
+}
+.option_popup_item:hover {
+    background-color: #f0f0f0;
+}
+.option_popup_item i {
+    margin-right: 16px;
+}
+.container_blog_head_left {
+    cursor: pointer;
+}
+.container_blog_head_left img {
+    margin-right: 8px;
+    cursor: pointer;
+}
+.container_blog_head_left div {
+    font-size: 12px;
+    color: #292929;
+    font-weight: 600;
+}
+.container_blog_content_left h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.container_blog_content_left div {
+    color: #505050;
+    font-size: 14px;
+    margin: 4px 0 15px 0;
+}
+.container_blog_content_left {
+    padding-top: 12px;
+}
+.container_blog_head img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.container_blog_content_right img{
+    width: 200px;
+    height: 112px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container_blog_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_ad {
+    width: 40%;
+}
+.container_blog_head_right .a:before {
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+}
+.container_blog_head_right .a:before {
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/*Right*/
+.container_ad {
+    padding-left: 88px;
+    padding-right: 96px;
+}
+.container_ad_coursead img {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 16px 0;
+    cursor: pointer;
+}
+.container_ad_coursead img:first-child {
+    margin-top: 50px;
+}
+.container_ad_coursead img:hover{
+    opacity: 0.9;
+}
+.container_ad_wrap_topictxt {
+    margin-top: 138px;
+    color: #757575;
+    font-size: 14px;
+    padding: 14px 0;
+}
+.container_ad_topic div {
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+/*Paging*/
+.paging_wrap {
+    padding: 10px;
+}
+.paging_wrap div{
+    padding: 6px 12px;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.paging_wrap .hv:hover {
+    cursor: pointer;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+}
+.paging_wrap {
+    display: flex;
+    justify-content: center;
+    
+}
+.pagingActive {
+    background-color: #f05123;
+    color: white;
+    border-radius: 6px;
+    cursor: default;
+}
